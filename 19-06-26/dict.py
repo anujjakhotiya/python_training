@@ -1,0 +1,11 @@
+d={1:"a",2:"b",3:"c"}
+print(d.keys())
+print(d.values())
+print(d.items())
+d[4]="d"
+print(d)
+d[4]="4"
+print(d)
+d1={5:"e"}
+d.update(d1)
+print(d)
